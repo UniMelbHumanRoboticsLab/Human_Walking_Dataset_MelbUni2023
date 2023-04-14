@@ -2,62 +2,6 @@ function [DYN] = Altitude_Dynamic(M)
 
 T = size(M.RASI, 1);
 
-% if markers == 24
-% % markers from the csv file
-%     M.RASI      = data(:,3:5);
-%     M.RPSI      = data(:,6:8);
-%     M.LPSI      = data(:,9:11);
-%     M.LASI      = data(:,12:14);
-%     M.RHIP      = data(:,15:17);
-%     M.RHIPextra = data(:,18:20);
-%     M.RLKN      = data(:,21:23);
-%     M.RMKN      = data(:,24:26);
-%     M.LHIP      = data(:,27:29);
-%     M.LHIPextra = data(:,30:32);
-%     M.LLKN      = data(:,33:35);
-%     M.LMKN      = data(:,36:38);
-%     M.RTIB      = data(:,39:41);
-%     M.RTIBextra = data(:,42:44);
-%     M.RLM       = data(:,45:47);
-%     M.RMM       = data(:,48:50);
-%     M.LTIB      = data(:,51:53);
-%     M.LTIBextra = data(:,54:56);
-%     M.LLM       = data(:,57:59);
-%     M.LMM       = data(:,60:62);
-%     M.RTOE      = data(:,63:65);
-%     M.RCAL      = data(:,66:68);
-%     M.LTOE      = data(:,69:71);
-%     M.LCAL      = data(:,72:74);
-% elseif markers == 26
-% % markers from the csv file
-%     M.RASI       = data(:,3:5);
-%     M.RPSI       = data(:,6:8);
-%     M.LPSI       = data(:,9:11);
-%     M.LASI       = data(:,12:14);
-%     M.RHIP       = data(:,15:17);
-%     M.RHIPextra  = data(:,18:20);
-%     M.RLKN       = data(:,21:23);
-%     M.RMKN       = data(:,24:26);
-%     M.RTIB       = data(:,27:29);
-%     M.RTIBextra1 = data(:,30:32);
-%     M.RTIBextra2 = data(:,33:35);
-%     M.RLM        = data(:,36:38);
-%     M.RMM        = data(:,39:41);
-%     M.RTOE       = data(:,42:44);
-%     M.RCAL       = data(:,45:47);
-%     M.LHIP       = data(:,48:50);
-%     M.LHIPextra  = data(:,51:53);
-%     M.LLKN       = data(:,54:56);
-%     M.LMKN       = data(:,57:59);
-%     M.LTIB       = data(:,60:62);
-%     M.LTIBextra1 = data(:,63:65);
-%     M.LTIBextra2 = data(:,66:68);
-%     M.LLM        = data(:,69:71);
-%     M.LMM        = data(:,72:74);
-%     M.LTOE       = data(:,75:77);
-%     M.LCAL       = data(:,78:80);
-% end
-
 % attitude matrices for dynamic trial
 % -----------------------------------
 for t = 1:T
