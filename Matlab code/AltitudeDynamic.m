@@ -1,4 +1,4 @@
-function [DYN] = Altitude_Dynamic(M)
+function [DYN] = AltitudeDynamic(M)
 
 T = size(M.RASI, 1);
 
