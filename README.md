@@ -17,8 +17,9 @@ Data are accompanied by several Matlab (.m) functions that run basic data analys
 
 Each subject walked on a treadmill during 30 tests, each taking 5 minutes, and differing in three factors: walking speed (three levels), step frequency (five levels), and constraints (two levels). The tests were equally split between two sessions (days) in a way to avoid multiple occurrences of the speed or consecutive occurrences of the impairment factor within a single session. The table below gives an overview of the tests. 
 
-| Test | Walking speed | Constraint | Cadence (% preferred) |
-| T1 | 1.1m/s | NO orthosis | -10% |
+| Test | Walking speed | Constraint  | Cadence (% preferred) |
+| ---- | ------------- | ----------- | --------------------- |
+|  T1  |    1.1m/s.    | NO orthosis |        -10%           |
 
 
 
