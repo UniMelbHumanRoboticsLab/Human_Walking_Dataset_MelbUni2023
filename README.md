@@ -56,12 +56,12 @@ Each subject walked on a treadmill during 30 tests 5 minutes in length and diffe
 |  T30 |    0.4m/s     |  orthosis   |        +20%           |
 
 ## Subject info ##
-A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the open data repository, containing the relevant info for each subject. These data are loaded in the preamble of all MAIN Matlab functions and are used in the code to load the relevant experimental data and run relevant calculations.
+A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the open data repository, containing the relevant info for each subject. These data are loaded in the preamble of all MAIN Matlab functions and are used in the code to load the relevant experimental data and run relevant calculations. Table below shows all data field available for each subject per session.
 
-| Data field | Meaning |
-| ---------- | ------- |
-| TestOrder  | Per session; 15 tests as they took place during the experiment; eg 1 3 2 4 5...|
-| ConditionOrder | Per session; 3 bouts as they took place during the experiment; 1=no orthosis, 2=orthosis; eg 2 1 2|
-| WalkSpeedOrder| Per session; three speeds as followed during the experiment; v1=0.4, v2=0.8, v3=1.1; eg 2 3 1|
+| Data field | Meaning | Example |
+| ---------- | ------- | ------- |
+| TestOrder  | 15 tests as they took place during the experiment | 1 3 2 4 5 23 22 25 21 24 15 13 11 14 12|
+| ConditionOrder | 3 bouts as they took place during the experiment; 1=no orthosis, 2=orthosis | 2 1 2 |
+| WalkSpeedOrder| 3 speeds as followed during the experiment; v1=0.4 m/s, v2=0.8 m/s, v3=1.1 m/s | 2 3 1 |
 
 
