@@ -43,4 +43,15 @@ Each subject walked on a treadmill during 30 tests 5 minutes in length and diffe
 |  T19 |    1.1m/s     |  orthosis   |        +10%           |
 |  T20 |    1.1m/s     |  orthosis   |        +20%           |
 |  --  |      --       |     --      |         --            |
+|  T21 |    0.8m/s     |  orthosis   |        -10%           |
+|  T22 |    0.8m/s     |  orthosis   |        -5%            |
+|  T23 |    0.8m/s     |  orthosis   |     preferred         |
+|  T24 |    0.8m/s     |  orthosis   |        +10%           |
+|  T25 |    0.8m/s     |  orthosis   |        +20%           |
+|  --  |      --       |     --      |         --            |
+|  T26 |    0.4m/s     |  orthosis   |        -10%           |
+|  T27 |    0.4m/s     |  orthosis   |        -5%            |
+|  T28 |    0.4m/s     |  orthosis   |     preferred         |
+|  T29 |    0.4m/s     |  orthosis   |        +10%           |
+|  T30 |    0.4m/s     |  orthosis   |        +20%           |
 
