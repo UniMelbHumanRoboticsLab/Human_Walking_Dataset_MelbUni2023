@@ -61,3 +61,5 @@ A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the op
 | Data field | Meaning |
 | ---------- | ------- |
 | TestOrder  | Per session; 15 tests as they took place during the experiment|
+| ConditionOrder | a triple, e.g., [2 1 2], corresponding to free (1) and constrained (2) case |
+
