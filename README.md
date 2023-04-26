@@ -65,5 +65,11 @@ A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the op
 | WalkSpeedOrder| 3 speeds as followed during the experiment; v1=0.4 m/s, v2=0.8 m/s, v3=1.1 m/s | 2 3 1 |
 | PrefSpeed | preferred walking speed determined during Session1 using the staircase method | na |
 | PrefCadence | preferred cadence at all three speeds, with and without orthosis; top row no orthosis, bottom row with orthosis; speed from v1 to v3 | 58 86 104; 62 86 100 |
-
+| CadenceRef | reference step frequency as played by the metronome; corresponding in order to TestOrder | 86 77 103 82 95 64 52... |
+| LowerLimbMarkers | number of markers on the pelvis and lower limbs | 26 |
+| UpperLimbMarkers | number of markers on the torso and arms | 11 |
+| Mass | subject's mass in kg | 75 |
+| MC_RestAvailable | the availability of metabolic cost measurement in resting; 5 in total; 1=available, 0=unavailable | 1 1 1 0 1 |
+| MC_PrefAvailable | the availability of metabolic cost measurement during preferred walking at the start and end of a session | 1 0 |
+| MC_BoutAvailable | the availability of metabolic cost measurement during the three bouts | 1 1 1 |
 
