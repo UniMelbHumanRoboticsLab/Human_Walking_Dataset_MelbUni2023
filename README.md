@@ -60,8 +60,8 @@ A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the op
 
 | Data field | Meaning |
 | ---------- | ------- |
-| TestOrder  | Per session; 15 tests as they took place during the experiment; eg [1 3 2 4 5...]|
-| ConditionOrder | Per session; 3 bouts as they took place during the experiment; 1=no orthosis, 2=orthosis; eg [2 1 2]|
-| WalkSpeedOrder| Per session; three speeds as followed during the experiment; v1=0.4, v2=0.8, v3=1.1; eg [2 3 1]|
+| TestOrder  | Per session; 15 tests as they took place during the experiment; eg 1 3 2 4 5...|
+| ConditionOrder | Per session; 3 bouts as they took place during the experiment; 1=no orthosis, 2=orthosis; eg 2 1 2|
+| WalkSpeedOrder| Per session; three speeds as followed during the experiment; v1=0.4, v2=0.8, v3=1.1; eg 2 3 1|
 
 
