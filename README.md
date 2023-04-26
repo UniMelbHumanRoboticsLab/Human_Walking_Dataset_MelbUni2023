@@ -63,5 +63,7 @@ A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the op
 | TestOrder  | 15 tests as they took place during the experiment | 1 3 2 4 5 23 22 25 21 24 15 13 11 14 12|
 | ConditionOrder | 3 bouts as they took place during the experiment; 1=no orthosis, 2=orthosis | 2 1 2 |
 | WalkSpeedOrder| 3 speeds as followed during the experiment; v1=0.4 m/s, v2=0.8 m/s, v3=1.1 m/s | 2 3 1 |
+| PrefSpeed | preferred walking speed determined during Session1 using the staircase method | na |
+| PrefCadence | preferred cadence at all three speeds, with and without orthosis; top row no orthosis, bottom row with orthosis; speed from v1 to v3 | 58 86 104; 62 86 100 |
 
 
