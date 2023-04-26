@@ -19,11 +19,17 @@ Each subject walked on a treadmill during 30 tests 5 minutes in length and diffe
 
 | Test | Walking speed | Constraint  | Cadence (% preferred) |
 | ---- | ------------- | ----------- | --------------------- |
-|  T1  |    1.1m/s.    | NO orthosis |        -10%           |
-|  T2  |    1.1m/s.    | NO orthosis |        -5%            |
-|  T3  |    1.1m/s.    | NO orthosis |     preferred         |
-|  T4  |    1.1m/s.    | NO orthosis |        +10%           |
-|  T5  |    1.1m/s.    | NO orthosis |        +20%           |
+|  T1  |    1.1m/s     | NO orthosis |        -10%           |
+|  T2  |    1.1m/s     | NO orthosis |        -5%            |
+|  T3  |    1.1m/s     | NO orthosis |     preferred         |
+|  T4  |    1.1m/s     | NO orthosis |        +10%           |
+|  T5  |    1.1m/s     | NO orthosis |        +20%           |
+
+|  T6  |    0.8m/s     | NO orthosis |        -10%           |
+|  T7  |    0.8m/s     | NO orthosis |        -5%            |
+|  T8  |    0.8m/s     | NO orthosis |     preferred         |
+|  T9  |    0.8m/s     | NO orthosis |        +10%           |
+|  T10 |    0.8m/s     | NO orthosis |        +20%           |
 
 
 
