@@ -15,7 +15,7 @@ Data are accompanied by several Matlab (.m) functions that run basic data analys
 
 ## Test nomenclature ##
 
-Each subject walked on a treadmill during 30 tests 5 minutes in length and differing in three factors: walking speed (three levels), step frequency (five levels), and constraints (two levels). The tests were equally split between two sessions (days) in a way to avoid multiple occurrences of the speed or consecutive occurrences of the impairment factor within a single session. The table below gives an overview of the tests. 
+Each subject walked on a treadmill during 30 tests 5 minutes in length and differing in three factors: walking speed (three levels), step frequency (five levels), and constraints (two levels). The tests were equally split between two sessions (days) in a way to avoid multiple occurrences of the speed or consecutive occurrences of the impairment factor within a single session. The table below gives an overview of the tests. The 15 tests per session are grouped into three bouts of five tests, with each bout having a fixed walking speed and sweeping through five step frequencies.
 
 | Test | Walking speed | Constraint  | Cadence (% preferred) |
 | ---- | ------------- | ----------- | --------------------- |
@@ -60,6 +60,8 @@ A file called 'Subject_Info.mat' is provided in the 'Root Data" folder in the op
 
 | Data field | Meaning |
 | ---------- | ------- |
-| TestOrder  | Per session; 15 tests as they took place during the experiment|
-| ConditionOrder | a triple, e.g., [2 1 2], corresponding to free (1) and constrained (2) case |
+| TestOrder  | Per session; 15 tests as they took place during the experiment; eg [1 3 2 4 5...]|
+| ConditionOrder | Per session; 3 bouts as they took place during the experiment; 1=no orthosis, 2=orthosis; eg [2 1 2]|
+| WalkSpeedOrder| Per session; three speeds as followed during the experiment; v1=0.4, v2=0.8, v3=1.1; eg [2 3 1]|
+
 
