@@ -30,6 +30,28 @@ Each subject walked on a treadmill during 30 tests 5 minutes in length and diffe
 |  T8  |    0.8m/s     | NO orthosis |     preferred         |
 |  T9  |    0.8m/s     | NO orthosis |        +10%           |
 |  T10 |    0.8m/s     | NO orthosis |        +20%           |
-
-
+|  --  |      --       |     --      |         --            |
+|  T11 |    0.4m/s     | NO orthosis |        -10%           |
+|  T12 |    0.4m/s     | NO orthosis |        -5%            |
+|  T13 |    0.4m/s     | NO orthosis |     preferred         |
+|  T14 |    0.4m/s     | NO orthosis |        +10%           |
+|  T15 |    0.4m/s     | NO orthosis |        +20%           |
+|  --  |      --       |     --      |         --            |
+|  T16 |    1.1m/s     |  orthosis   |        -10%           |
+|  T17 |    1.1m/s     |  orthosis   |        -5%            |
+|  T18 |    1.1m/s     |  orthosis   |     preferred         |
+|  T19 |    1.1m/s     |  orthosis   |        +10%           |
+|  T20 |    1.1m/s     |  orthosis   |        +20%           |
+|  --  |      --       |     --      |         --            |
+|  T6  |    0.8m/s     | NO orthosis |        -10%           |
+|  T7  |    0.8m/s     | NO orthosis |        -5%            |
+|  T8  |    0.8m/s     | NO orthosis |     preferred         |
+|  T9  |    0.8m/s     | NO orthosis |        +10%           |
+|  T10 |    0.8m/s     | NO orthosis |        +20%           |
+|  --  |      --       |     --      |         --            |
+|  T11 |    0.4m/s     | NO orthosis |        -10%           |
+|  T12 |    0.4m/s     | NO orthosis |        -5%            |
+|  T13 |    0.4m/s     | NO orthosis |     preferred         |
+|  T14 |    0.4m/s     | NO orthosis |        +10%           |
+|  T15 |    0.4m/s     | NO orthosis |        +20%           |
 
