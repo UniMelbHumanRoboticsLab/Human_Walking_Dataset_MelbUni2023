@@ -5,7 +5,5 @@ available from an [open access data repository](https://springernature.figshare.
 and structure of the provided dataset can be found in the corresponding [data descriptor paper](https://www.nature.com/articles/...). 
 
 Data are provided on two different levels -- raw and segmented, and in two different formats: .c3d and .mat. The organisation is as follows:
-1. RAW: raw data comes in both .c3d and .mat formats.
-  1. C3D format: 
-  2. MAT format:
-2. SEGMENTED
+1. RAW: raw data comes in both .c3d and .mat formats. C3D format contains ground reaction forces, joint motion, and muscle activity data all saved in one file per test per subject. MAT format contains two files per subject, one featuring ground reaction forces and joint motion data (called 'rawMechanics') and another one featuring muscle activity data (called 'rawEnergetics').
+2. SEGMENTED: segmented data comes in .mat format only.
