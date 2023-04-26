@@ -13,3 +13,12 @@ Data are provided on two different levels -- raw and segmented, and in two diffe
 
 Data are accompanied by several Matlab (.m) functions that run basic data analysis and visualisation. The analysis of different data types is separated into different functions, resulting in three main functions: MAIN_KineticsKinematics, MAIN_Emg, and MAIN_MetabolicCost. Running either will load the relevant data and produce plots that visualise, e.g., ground reaction force, joint angles, and metabolic cost across the tests. 
 
+## Test nomenclature ##
+
+Each subject walked on a treadmill during 30 tests, each taking 5 minutes, and differing in three factors: walking speed (three levels), step frequency (five levels), and constraints (two levels). The tests were equally split between two sessions (days) in a way to avoid multiple occurrences of the speed or consecutive occurrences of the impairment factor within a single session. The table below gives an overview of the tests. 
+
+| Test | Walking speed | Constraint | Cadence (% preferred) |
+| T1 | 1.1m/s | NO orthosis | -10% |
+
+
+
