@@ -15,11 +15,15 @@ Data are accompanied by several Matlab (.m) functions that run basic data analys
 
 ## Test nomenclature ##
 
-Each subject walked on a treadmill during 30 tests, each taking 5 minutes, and differing in three factors: walking speed (three levels), step frequency (five levels), and constraints (two levels). The tests were equally split between two sessions (days) in a way to avoid multiple occurrences of the speed or consecutive occurrences of the impairment factor within a single session. The table below gives an overview of the tests. 
+Each subject walked on a treadmill during 30 tests 5 minutes in length and differing in three factors: walking speed (three levels), step frequency (five levels), and constraints (two levels). The tests were equally split between two sessions (days) in a way to avoid multiple occurrences of the speed or consecutive occurrences of the impairment factor within a single session. The table below gives an overview of the tests. 
 
 | Test | Walking speed | Constraint  | Cadence (% preferred) |
 | ---- | ------------- | ----------- | --------------------- |
 |  T1  |    1.1m/s.    | NO orthosis |        -10%           |
+|  T2  |    1.1m/s.    | NO orthosis |        -5%            |
+|  T3  |    1.1m/s.    | NO orthosis |     preferred         |
+|  T4  |    1.1m/s.    | NO orthosis |        +10%           |
+|  T5  |    1.1m/s.    | NO orthosis |        +20%           |
 
 
 
