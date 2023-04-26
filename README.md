@@ -5,7 +5,7 @@ available from an [open access data repository](https://springernature.figshare.
 and structure of the provided dataset can be found in the corresponding [data descriptor paper](https://www.nature.com/articles/...). 
 
 Data are provided on two different levels -- raw and segmented, and in two different formats: .c3d and .mat. The organisation is as follows:
-(1) RAW: raw data comes in both .c3d and .mat formats.
-  (1.1) C3D format: 
-  (1.2) MAT format:
-(2) SEGMENTED
+1. RAW: raw data comes in both .c3d and .mat formats.
+  1.1 C3D format: 
+  1.2 MAT format:
+2. SEGMENTED
