@@ -1,9 +1,8 @@
-
 % MAIN SCRIPT FOR EMG DATA ANALYSIS
 % loads Subject data; plots data
-% provided with the paper "Individual Gait Adaptations: A Dataset of Healthy Adults Walking With and Without Kinematic Constraints"
+% provided with the paper "A biomechanics and energetics dataset of neurotypical adults walking with and without kinematic constraints"
 % Author: Bacek Tomislav, The University of Melbourne
-% March 2023
+% May 2024
 
 %% sensor placement
 
@@ -37,7 +36,7 @@ format short g
 
 %% load data
 % go to the folder where data are saved
-message = ['Select folder where data are saved (in ROOT DATA/)']; 
+message = ['Select folder where data are saved (i.e., raw and segmented)']; 
 disp(message);
 datafolder = uigetdir(cd, message);
 addpath(genpath(datafolder))
@@ -46,8 +45,8 @@ addpath(genpath(datafolder))
 % Subject and Session
 
 % - - - - - SUBJECT ID - - - - -
-Subject = {'Sub1','Sub2','Sub3','Sub4','Sub5','Sub6','Sub7','Sub8','Sub9','Sub10','Sub11','Sub12','Sub13'};
-Subject_ID = input('Choose the subject (1-12):');
+Subject = {'Sub1','Sub2','Sub3','Sub4','Sub5','Sub6','Sub7','Sub8','Sub9','Sub10','Sub11','Sub12','Sub13','Sub14','Sub15','Sub16','Sub17','Sub18','Sub19','Sub20','Sub21'};
+Subject_ID = input('Choose the subject (1-21):');
 
 % - - - - - SESSION ID - - - - - - - - 
 % sessions
