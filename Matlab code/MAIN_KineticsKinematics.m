@@ -1,8 +1,8 @@
 % MAIN SCRIPT FOR DATA ANALYSIS
 % loads Subject data; segments it using GRF_vertical; plots data
-% provided with the paper "Individual Gait Adaptations: A Dataset of Healthy Adults Walking With and Without Kinematic Constraints"
+% provided with the paper "A biomechanics and energetics dataset of neurotypical adults walking with and without kinematic constraints"
 % Author: Bacek Tomislav, The University of Melbourne
-% March 2023
+% May 2024
 
 %% general info
 % data from Belt1 corresponds to the left leg, and data from Belt2 to the right leg
@@ -56,7 +56,7 @@ format short g
 
 %% load data
 % go to the folder where data are saved
-message = ['Select folder where data are saved (in ROOT DATA)']; 
+message = ['Select folder where data are saved (i.e., rawMechanics)']; 
 disp(message);
 datafolder = uigetdir(cd, message);
 addpath(genpath(datafolder))
@@ -65,25 +65,27 @@ addpath(genpath(datafolder))
 % Subject and Session
 
 % - - - - - SUBJECT ID - - - - -
-Subject = {'Sub1','Sub2','Sub3','Sub4','Sub5','Sub6','Sub7','Sub8','Sub9','Sub10','Sub11','Sub12','Sub13'};
-Subject_ID = input('Choose the subject (1-12):');
+Subject = {'Sub1','Sub2','Sub3','Sub4','Sub5','Sub6','Sub7','Sub8','Sub9','Sub10','Sub11','Sub12','Sub13','Sub14','Sub15','Sub16','Sub17','Sub18','Sub19','Sub20','Sub21'};
+Subject_ID = input('Choose the subject (1-21):');
 
 % - - - - - SESSION ID - - - - - - - - 
 % sessions
+% Session1 = familiarisation; Session2 = 1st data collection session;
+% Session3 = 2nd data collection session
 Session = {'Session1','Session2','Session3'};
 Session_ID = input('Choose the session (2 or 3):');
 
 % - - - - - - ANGLES CORRECTION - - - - - -
 % should static calibration correction be applied? (zeroing)
-Correction = {'Corr_Yes','Corr_No'};
+Correction = {'Corr_Yes','Corr_No'}; % 1 or 2
 Correction_ID = 1;
 % if yes, which leg side should be corrected
-Side = {'Left','Right','Both'};
+Side = {'Left','Right','Both'}; % 1, 2, or 3
 Side_ID = 3;
 
 %% load subject-specific data
 
-fprintf('loading data...')
+fprintf('loading rawMechanics data...')
 load(strcat(char(Subject(Subject_ID)),'_rawMechanics.mat'));
 fprintf('done! \n')
 
@@ -105,7 +107,7 @@ TotalMarkers = LowerLimbMarkers + UpperLimbMarkers;
 Weight = Mass * 9.81; 
 
 % define leg length
-LegLength_vector = [0.87 0.89 0.97 0.87 0.82 0.91 0.86 0.91 0.82 0.95 0.95 0.84]; % [m]
+LegLength_vector = [0.87 0.89 0.97 0.87 0.82 0.91 0.86 0.91 0.82 0.95 0.95 0.84 0.87 0.87 0.78 0.84 0.84 0.93 0.74 0.93 0.96]; % [m]
 LegLength = LegLength_vector(Subject_ID);
 
 %% * * * * * * C H O O S E !!!!!! * * * * * * * 
